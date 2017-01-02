@@ -28,6 +28,7 @@ power1.addEventListener("click", powerUp1);
 function powerUp1() {
   if (total >= 20) {
     total = total - 20;
+    clickPower("power");
     power1.onclick = setInterval('clickPower("power")', 5000);
   }
 }
@@ -40,6 +41,7 @@ power2.addEventListener("click", powerUp2);
 function powerUp2() {
   if (total >= 150) {
     total = total - 150;
+    clickPower("power2");
     power2.onclick = setInterval('clickPower("power2")', 2000);
   }
 }
@@ -52,6 +54,7 @@ power3.addEventListener("click", powerUp3);
 function powerUp3() {
   if (total >= 350) {
     total = total - 350;
+    clickPower("power3");
     power3.onclick = setInterval('clickPower("power3")', 1000);
   }
 }
@@ -64,6 +67,7 @@ power4.addEventListener("click", powerUp4);
 function powerUp4() {
   if (total >= 700) {
     total = total - 700;
+    clickPower("power4");
     power4.onclick = setInterval('clickPower("power4")', 1000);
   }
 }
@@ -76,6 +80,7 @@ power5.addEventListener("click", powerUp5);
 function powerUp5() {
   if (total >= 1000) {
     total = total - 1000;
+    clickPower("power5");
     power5.onclick = setInterval('clickPower("power5")', 1000);
   }
 }
@@ -88,6 +93,7 @@ power6.addEventListener("click", powerUp6);
 function powerUp6() {
   if (total >= 1500) {
     total = total - 1500;
+    clickPower("power6");
     power6.onclick = setInterval('clickPower("power6")', 1000);
   }
 }
@@ -100,6 +106,7 @@ power7.addEventListener("click", powerUp7);
 function powerUp7() {
   if (total >= 20000) {
     total = total - 20000;
+    clickPower("power7");
     power7.onclick = setInterval('clickPower("power7")', 1000);
   }
 }
@@ -112,6 +119,7 @@ power8.addEventListener("click", powerUp8);
 function powerUp8() {
   if (total >= 100000) {
     total = total - 100000;
+    clickPower("power8");
     power8.onclick = setInterval('clickPower("power8")', 1000);
   }
 }
