@@ -1,3 +1,3 @@
 # LemonClicker
 A simple HTML game! 
-Link: https://qpetraroia.github.io/LemonClicker/
+https://qpetraroia.github.io/LemonClicker/
