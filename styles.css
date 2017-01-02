@@ -1,0 +1,57 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #FFE761;
+  font-family: 'Oxygen', sans-serif;
+  color: black;
+}
+
+.page-header {
+  margin: 0px;
+  border-color: black;
+}
+
+#output {
+  padding-top: 5px;
+  background: none;
+  border: none;
+}
+
+.button {
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+
+.img-responsive { /* lemon picture */
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: auto;
+    width: auto;
+    max-width: 300px;
+    max-height: 300px;
+    cursor: pointer;
+}
+
+.img-responsive:active { 
+  position: relative;
+  top: 2px;
+}
+
+
+.powerUp { /* style the powerups */
+  word-wrap: break-word;
+  display: block;
+  border-style: solid;
+  border-color: black;
+  background-repeat: repeat;
+  border-radius: 10px;
+  margin: 15px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+
+
